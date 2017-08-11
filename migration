@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+docker run --rm --net=none dimitri/pgloader bash -c "pgloader $1 $2"
